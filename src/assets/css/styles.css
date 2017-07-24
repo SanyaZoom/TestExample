@@ -1,0 +1,25 @@
+div.timer-block {
+    left: 35%;
+    right: 35%;
+    width: 30%;
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
+
+div.timer-label:before,
+div.timer-label:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent);
+    background-image: linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent);
+}
+
+div.timer-value {
+    margin: 2% 40% 12% 40%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #ffffff;
+}
